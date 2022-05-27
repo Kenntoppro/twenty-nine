@@ -1,0 +1,14 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if a < b and a < c and a < d:
+   print(a, 'меньшее число')
+elif b < a and b < c and b < d:
+   print(b, 'меньшее число')
+elif c < a and c < b and c < d:
+   print(c, 'меньшее число')
+elif d < a and d < b and d < c:
+   print(d, 'меньшее число')
+else:
+   print('они равны')
